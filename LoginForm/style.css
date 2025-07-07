@@ -1,0 +1,70 @@
+body{
+    font-family: "Noto Sans JP",'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', sans-serif;  
+    background-color: #2c2c2c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}  
+.form-container{
+    width: 500px; 
+    min-width: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2c2c;
+    padding: 30px;
+}  
+.title{
+    margin-bottom: 30px;
+    align-items: left;
+}
+
+/* form */
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.input,.button{
+    box-sizing: border-box;
+}
+.input{
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    border: solid 1px #808080;
+    border-radius: 5px;
+    background-color: #444;
+    width: 400px;
+}
+
+/* Sign in button */
+.button{
+    background-color: #0096FF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 10px;
+    width: 400px;
+}
+.button:hover{
+    background-color: #005f87;
+}
+
+/* Sign up link*/
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #005f87;
+}
