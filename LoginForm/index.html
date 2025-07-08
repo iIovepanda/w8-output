@@ -9,17 +9,18 @@
 <body>
     <div class="form-container">
         <h1 class="title">Sign in to your account</h1>
-        <form action="#" method="post" class="form" >
+        <form action="" method="post" class="form" onsubmit="saveToLocalStorage(event)">
           <label for="email" class="label">Your email</label>          
-          <input type="email" name="email" class="input" required placeholder="name@company.com">
+          <input type="email" name="email" id="email" class="input" required placeholder="name@company.com">
 
           <label for="password" class="label">Password</label>
-          <input type="password" name="password" class="input" required placeholder="・・・・・・・・"> 
+          <input type="password" name="password" id="password" class="input" required placeholder="・・・・・・・・"> 
   
           <button type="submit" class="button">Sign in</button>
           <br>
           <p>Don't have an account yet? <a href="#">Sign up</a></p>
         </form>
-    </div> 
+    </div>
+    <script src="storage.js"></script>  
 </body>
 </html>
