@@ -7,7 +7,7 @@ function saveToLocalStorage(event) {
     localStorage.setItem('email', email);
     localStorage.setItem('password', password);
 
-    alert('Credentials saved to localStorage!');
+    //alert('Credentials saved to localStorage!');
 }
 // localStorageをフォームに反映
 function autoFillForm() {
